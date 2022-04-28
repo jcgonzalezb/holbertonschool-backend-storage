@@ -1,9 +1,6 @@
--- Write a SQL script that lists all bands with Glam rock as their main style, ranked by their longevity
--- Requirements:
--- Column names must be: band_name and lifespan (in years)
--- You should use attributes formed and split for computing the lifespan
+-- Write a SQL script that creates a trigger that decreases the quantity of an item after adding a new order.
+-- Quantity in the table items can be negative.
 
-SELECT band_name, split - formed as lifespan
-FROM metal_bands
-WHERE style LIKE ('%Glam rock%')
-ORDER BY lifespan DESC;
+CREATE TRIGGER decreases_the_quantity AFTER INSERT ON orders
+    FOR EACH ROW
+        UPDATE items SET quantity = quantity - number WHERE name = item.name;
