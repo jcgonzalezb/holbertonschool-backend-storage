@@ -35,13 +35,25 @@
 
 9. Creates an index idx_name_first_score on the table names and the first letter of name and the score.
 
+10. A SQL script that creates a function SafeDiv that divides (and returns) the first by the second number or returns 0 if the second number is equal to 0. It must follow the following requirements:
+- Must create a function
+- The function SafeDiv takes 2 arguments:
+	- a, INT
+	- b, INT
+- Returns a / b or 0 if b == 0
+
+11. A SQL script that creates a view need_meeting that lists all students that have a score under 80 (strict) and no last_meeting or more than 1 month. It must follow the following requirements:
+- The view need_meeting should return all students name when:
+	- They score are under (strict) to 80
+	- AND no last_meeting date OR more than a month
 
 
 ## Languages and Tools:
 
 - OS: Ubuntu 20.04 LTS
-- Language: Python 3.8.10
-- Style guidelines: [PEP 8](https://www.python.org/dev/peps/pep-0008/)
+- Language: MySQL scripts
+- version: MySQL 8.0.27
+- Style guidelines: [SQLStyle](http://www.tomjewett.com/dbdesign/dbdesign.php?page=setops.php)
 
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
