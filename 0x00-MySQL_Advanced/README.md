@@ -1,4 +1,4 @@
-# MySQL - MySQL advanced
+# SQL - MySQL advanced
 
 ## Description of the files inside this folder:
 
@@ -33,7 +33,7 @@
 
 8. An index idx_name_first on the table names and the first letter of name.
 
-9. Creates an index idx_name_first_score on the table names and the first letter of name and the score.
+9. An index idx_name_first_score on the table names and the first letter of name and the score.
 
 10. A SQL script that creates a function SafeDiv that divides (and returns) the first by the second number or returns 0 if the second number is equal to 0. It must follow the following requirements:
 - Must create a function
