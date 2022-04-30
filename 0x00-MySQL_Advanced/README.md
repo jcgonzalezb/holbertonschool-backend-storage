@@ -55,7 +55,7 @@
 - version: MySQL 8.0.27
 - Style guidelines: [SQLStyle](http://www.tomjewett.com/dbdesign/dbdesign.php?page=setops.php)
 
-<p align="left"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="python" width="40" height="40"/> </a> </p>
+<p align="left"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://www.mysql.com/common/logos/logo-mysql.eps" alt="python" width="80" height="40"/> </a> </p>
 
 
 ## Author
