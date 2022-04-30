@@ -2,6 +2,7 @@
 -- The view need_meeting should return all students name when They score are under (strict) to 80 AND no last_meeting date OR more than a month
 
 delimiter |
-CREATE VIEW need_meeting AS SELECT name FROM students WHERE score < 80 AND MONTH(last_meeting) > 1 OR last_meeting is NULL;
+CREATE VIEW need_meeting AS SELECT name FROM students WHERE score < 80 AND last_meeting is NULL OR MONTH(last_meeting) > 1;
 |
 delimiter ;
+
