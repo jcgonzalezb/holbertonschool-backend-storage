@@ -22,7 +22,7 @@ print("    method PUT: ", total_count_put)
 total_count_patch = my_collection.count_documents({"method": "PATCH"})
 print("    method PATCH: ", total_count_patch)
 total_count_delete = my_collection.count_documents({"method": "DELETE"})
-print("   method DELETE: ", total_count_delete)
+print("    method DELETE: ", total_count_delete)
 total_count_status = my_collection.count_documents(
     {"method": "GET", "path": "/status"})
 print(total_count_status, "status check")
