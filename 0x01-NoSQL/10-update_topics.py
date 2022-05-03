@@ -15,7 +15,7 @@ def update_topics(mongo_collection, name, topics):
     Returns:
         updated topics
     """
-    myquery = { "name": name }
-    newvalues = { "$set": { "topics": topics } }
+    myquery = {"name": name}
+    newvalues = {"$set": {"topics": topics}}
 
     mongo_collection.update_one(myquery, newvalues)
