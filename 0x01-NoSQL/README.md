@@ -24,7 +24,7 @@
 - Language: MongoDB shell version v4.2.19, Python 3.8.10
 - Style guidelines: [PEP 8](https://www.python.org/dev/peps/pep-0008/)
 
-<p align="left"> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress" alt="mysql" width="80" height="40"/> </a> </p>
+<p align="left"> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://d3cy9zhslanhfa.cloudfront.net/media/3800C044-6298-4575-A05D5C6B7623EE37/EBDAA189-3FD9-4D40-AE7B489ECB6158C8/webimage-3827119F-CEE5-4467-B0869BCFC50323C2.png" alt="mysql" width="80" height="40"/> </a> </p>
 
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
