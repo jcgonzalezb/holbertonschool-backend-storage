@@ -12,9 +12,9 @@
 6. Script that adds a new attribute to a document in the collection school.
 7. Script that deletes all documents with name="Holberton school" in the collection school.
 8. Project module that contains a Python function that lists all documents in a collection.
-9. Project module that contains a function that inserts a new document in a collection based on kwargs.
-10. Project module that contains a function that changes all topics of a school document based on the name.
-11. Project module that contains a function that returns the list of school having a specific topic.
+9. Project module that contains a Python function that inserts a new document in a collection based on kwargs.
+10. Project module that contains a Python function that changes all topics of a school document based on the name.
+11. Project module that contains a Python function that returns the list of school having a specific topic.
 12. Project module that contains a Python script that provides some stats about Nginx logs stored in MongoDB.
 
 
