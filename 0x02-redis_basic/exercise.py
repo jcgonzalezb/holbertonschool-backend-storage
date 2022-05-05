@@ -105,13 +105,13 @@ class Cache:
             return fn(result)
         return result
 
-    def get_str(self, key):
+    def get_str(self, key) -> str:
         """
         Returns key value as string.
         """
         return get(key, str)
 
-    def get_int(self, key):
+    def get_int(self, key) -> int:
         """
         Returns key value as integer.
         """
