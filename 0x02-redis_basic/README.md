@@ -17,7 +17,7 @@ All tasks are included in the exercise.py file.
 - Style guidelines: [PEP 8](https://www.python.org/dev/peps/pep-0008/)
 
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
-<p align="left"> <a href="https://redis.io/" target="_blank" rel="noreferrer"> <img src="https://redis.com/wp-content/uploads/2021/08/redis-logo.png?&auto=webp&quality=85,75&width=500" alt="python" width="140" height="50"/> </a> </p>
+<p align="left"> <a href="https://redis.io/" target="_blank" rel="noreferrer"> <img src="https://redis.com/wp-content/uploads/2021/08/redis-logo.png?&auto=webp&quality=85,75&width=500" alt="python" width="70" height="25"/> </a> </p>
 
 
 
