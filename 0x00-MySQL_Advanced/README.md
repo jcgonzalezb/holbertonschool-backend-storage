@@ -52,7 +52,7 @@
 
 - OS: Ubuntu 20.04 LTS
 - Language: MySQL scripts
-- version: MySQL 8.0.27
+- Version: MySQL 8.0.27
 - Style guidelines: [SQLStyle](https://www.sqlstyle.guide/)
 
 <p align="left"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="mysql" width="80" height="40"/> </a> </p>
