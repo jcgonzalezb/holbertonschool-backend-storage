@@ -78,8 +78,8 @@ class Cache:
         self._redis = redis.Redis()
         self._redis.flushdb()
 
-    @call_history
-    @count_calls
+    #@call_history
+    #@count_calls
     def store(self, data: Union[str, bytes, int, float]) -> str:
         """
         Store method that generates a random key
@@ -89,7 +89,7 @@ class Cache:
                 Returns the random key.
         """
         random_key = str(uuid.uuid4())
-        self._redis.mset({random_key: data})
+        self._redis.set(random_key, data)
         return random_key
 
     def get(
@@ -109,10 +109,10 @@ class Cache:
         """
         Returns key value as string.
         """
-        return get(key, str)
+        return self.get(key, str)
 
     def get_int(self, key) -> int:
         """
         Returns key value as integer.
         """
-        return get(key, int)
+        return self.get(key, int)
