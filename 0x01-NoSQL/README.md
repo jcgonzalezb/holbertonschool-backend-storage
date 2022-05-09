@@ -21,7 +21,7 @@
 ## Languages and Tools:
 
 - OS: Ubuntu 20.04 LTS
-- Language: MongoDB shell version v4.2.19, Python 3.8.10
+- Languages: MongoDB shell version v4.2.19, Python 3.8.10
 - Style guidelines: [PEP 8](https://www.python.org/dev/peps/pep-0008/)
 
 <p align="left"> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://d3cy9zhslanhfa.cloudfront.net/media/3800C044-6298-4575-A05D5C6B7623EE37/4B45D0EC-3482-4759-82DA37D8EA07D229/webimage-8A27671A-8A53-45DC-89D7BF8537F15A0D.png" alt="mysql" width="140" height="40"/> </a> </p>
