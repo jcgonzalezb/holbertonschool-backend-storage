@@ -78,8 +78,9 @@ class Cache:
         self._redis = redis.Redis()
         self._redis.flushdb()
 
-    #@call_history
-    #@count_calls
+    @call_history
+    @count_calls
+    # For task 0 and 1, disable the decorator above.
     def store(self, data: Union[str, bytes, int, float]) -> str:
         """
         Store method that generates a random key
